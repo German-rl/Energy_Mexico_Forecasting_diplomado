@@ -55,17 +55,20 @@ Model training and evaluation on unseen data
  
 | Method               | MAE         | RMSE        | MAPE      |
 | -------------------- | ----------- | ----------- | --------- |
-| Multiple Step RNN    | 3,319,318   | 3,763,270   | 15.32%    |
-| Multiple Step LSTM   | 2,493,196   | 2,782,009   | 11.61%    |
-| Single Step RNN      | 1,334,948   | 1,591,747   | 6.47%     |
-| **Single Step LSTM** | **805,058** | **983,441** | **3.97%** |
+| Multiple Step RNN    │ 2,321,455   │ 2,763,757   │ 10.54%    │
+| Multiple Step LSTM   | 2,451,139   | 2,836,682   | 11.28%    |
+| Single Step RNN      │ 950,855     │ 1,219,382.  │ 4.73%     │
+│**Single Step LSTM**  │**776,368**  │**965757**   │**3.82%**  │
+
+
+
 
 
 LSTM models consistently achieve lower error, highlighting their ability to capture long-term temporal dependencies and mitigate vanishing gradient issues.
 Single-step models provide significantly better accuracy.
 Multi-step models accumulate error over longer prediction horizons.
 The Single-step LSTM achieved the best performance:
-  ### MAPE ≈ 3.97%
+  ### MAPE ≈ 3.82%
 ### Real-World Applications
 This type of forecasting model can support:
   Electricity generation planning
