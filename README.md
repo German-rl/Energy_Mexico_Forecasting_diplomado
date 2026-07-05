@@ -53,12 +53,12 @@ Model training and evaluation on unseen data
 ## Results
  ### Model Comparison
  
-| Method               | MAE         | RMSE        | MAPE      |
-| -------------------- | ----------- | ----------- | --------- |
-| Multiple Step RNN    │ 2,321,455   │ 2,763,757   │ 10.54%    │
-| Multiple Step LSTM   | 2,451,139   | 2,836,682   | 11.28%    |
-| Single Step RNN      │ 950,855     │ 1,219,382.  │ 4.73%     │
-│**Single Step LSTM**  │**776,368**  │**965757**   │**3.82%**  │
+| Method               | MAE       | RMSE      | MAPE  |
+|----------------------|----------:|----------:|-------:|
+| Multiple Step RNN    | 2,321,455 | 2,763,757 | 10.54% |
+| Multiple Step LSTM   | 2,451,139 | 2,836,682 | 11.28% |
+| Single Step RNN      |   950,855 | 1,219,382 |  4.73% |
+| **Single Step LSTM** | **776,368** | **965,757** | **3.82%** |
 
 
 
